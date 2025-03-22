@@ -95,9 +95,7 @@ main {
 
 .qr-section {
     margin-bottom: 20px;
-    display: flex;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+
 }
 
 .qr-section h3 {
@@ -107,6 +105,8 @@ main {
 #qrcode {
     margin-top: 20px; /* Adds space above the QR code */
     width: 100%;
+    display: grid;
+    place-items: center;
    
 }
 
