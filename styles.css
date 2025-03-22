@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #F8C82F; /* Ethiopian Flag Yellow */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.language-selector button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #E2202A; /* Ethiopian Flag Red */
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.language-selector button:hover {
+    background-color: #D11B1F;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu {
+    flex: 0 0 70%;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.product h3 {
+    margin: 5px 0;
+    color: #4A4A4A;
+}
+
+.product p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.product span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #2A9D8F; /* Ethiopian Green */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 0 0 25%;
+    padding: 10px;
+    border-left: 3px solid #2A9D8F; /* Ethiopian Green */
+    text-align: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    height: 100%;
+}
+
+.qr-section {
+    margin-bottom: 20px;
+}
+
+.qr-section h3 {
+    color: #E2202A; /* Ethiopian Flag Red */
+}
+
+#qrcode {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Developer Information */
+.developer-info {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #2A9D8F;
+    color: #4A4A4A;
+}
+
+.developer-info p {
+    margin: 5px 0;
+}
+
+.developer-info a {
+    color: #2A9D8F; /* Ethiopian Green */
+    text-decoration: none;
+}
+
+.developer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2A9D8F; /* Ethiopian Flag Green */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-top: 20px;
+        border-left: none;
+    }
+}
+
+
+/* Flexbox for Menu Items */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adds space between items */
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px; /* Fixed width for each product */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.product span {
+    font-weight: bold;
+    color: #E2202A; /* Ethiopian Red */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .product {
+        width: 45%; /* Takes up 45% width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 90%; /* Takes up 90% width on very small screens */
+    }
+}

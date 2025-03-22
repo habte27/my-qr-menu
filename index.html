@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethiopian QR Menu System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script> <!-- QRCode.js Library -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>QR Menu</h1> <!-- English version of the QR Menu -->
+        </div>
+        <div class="language-selector">
+            <button id="english" onclick="switchLanguage('en')">English</button>
+            <button id="amharic" onclick="switchLanguage('am')">አማርኛ</button>
+        </div>
+    </header>
+
+    <!-- Main Section (Menu) -->
+    <main>
+        <section class="menu">
+            <h2>List of Price Menu</h2>
+            <div class="menu-items">
+                <!-- Each item in the menu -->
+                <div class="product">
+                    <img src="product1.jpg" alt="Product 1">
+                    <div class="product-details">
+                        <h3 id="product1-name">Milk</h3>
+                        <p id="product1-desc">A refreshing dairy drink</p>
+                        <span id="product1-price">ETB 50.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Product 2">
+                    <div class="product-details">
+                        <h3 id="product2-name">Coffee</h3>
+                        <p id="product2-desc">Hot brewed coffee</p>
+                        <span id="product2-price">ETB 30.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Product 3">
+                    <div class="product-details">
+                        <h3 id="product3-name">Tea</h3>
+                        <p id="product3-desc">Herbal tea</p>
+                        <span id="product3-price">ETB 25.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product4.jpg" alt="Product 4">
+                    <div class="product-details">
+                        <h3 id="product4-name">Sandwich</h3>
+                        <p id="product4-desc">Freshly made sandwich</p>
+                        <span id="product4-price">ETB 60.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product5.jpg" alt="Product 5">
+                    <div class="product-details">
+                        <h3 id="product5-name">Pastry</h3>
+                        <p id="product5-desc">Sweet butter pastry</p>
+                        <span id="product5-price">ETB 40.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product6.jpg" alt="Product 6">
+                    <div class="product-details">
+                        <h3 id="product6-name">Croissant</h3>
+                        <p id="product6-desc">Flaky, buttery croissant</p>
+                        <span id="product6-price">ETB 45.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product7.jpg" alt="Product 7">
+                    <div class="product-details">
+                        <h3 id="product7-name">Latte</h3>
+                        <p id="product7-desc">Espresso with steamed milk</p>
+                        <span id="product7-price">ETB 70.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product8.jpg" alt="Product 8">
+                    <div class="product-details">
+                        <h3 id="product8-name">Espresso</h3>
+                        <p id="product8-desc">Strong brewed coffee</p>
+                        <span id="product8-price">ETB 55.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product9.jpg" alt="Product 9">
+                    <div class="product-details">
+                        <h3 id="product9-name">Bagel</h3>
+                        <p id="product9-desc">Chewy bagel with cream cheese</p>
+                        <span id="product9-price">ETB 35.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product10.jpg" alt="Product 10">
+                    <div class="product-details">
+                        <h3 id="product10-name">Muffin</h3>
+                        <p id="product10-desc">Freshly baked muffin</p>
+                        <span id="product10-price">ETB 30.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product11.jpg" alt="Product 11">
+                    <div class="product-details">
+                        <h3 id="product11-name">Hot Chocolate</h3>
+                        <p id="product11-desc">Rich and creamy hot chocolate</p>
+                        <span id="product11-price">ETB 60.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product12.jpg" alt="Product 12">
+                    <div class="product-details">
+                        <h3 id="product12-name">Iced Coffee</h3>
+                        <p id="product12-desc">Cold brewed coffee with ice</p>
+                        <span id="product12-price">ETB 50.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product13.jpg" alt="Product 13">
+                    <div class="product-details">
+                        <h3 id="product13-name">Fruit Salad</h3>
+                        <p id="product13-desc">Freshly cut fruits</p>
+                        <span id="product13-price">ETB 80.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product14.jpg" alt="Product 14">
+                    <div class="product-details">
+                        <h3 id="product14-name">Smoothie</h3>
+                        <p id="product14-desc">Fruit smoothie</p>
+                        <span id="product14-price">ETB 65.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product15.jpg" alt="Product 15">
+                    <div class="product-details">
+                        <h3 id="product15-name">Omelette</h3>
+                        <p id="product15-desc">Egg omelette</p>
+                        <span id="product15-price">ETB 75.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product16.jpg" alt="Product 16">
+                    <div class="product-details">
+                        <h3 id="product16-name">Sausage Roll</h3>
+                        <p id="product16-desc">Sausage wrapped in pastry</p>
+                        <span id="product16-price">ETB 50.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product17.jpg" alt="Product 17">
+                    <div class="product-details">
+                        <h3 id="product17-name">Cheese Toast</h3>
+                        <p id="product17-desc">Grilled cheese toast</p>
+                        <span id="product17-price">ETB 40.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product18.jpg" alt="Product 18">
+                    <div class="product-details">
+                        <h3 id="product18-name">Ice Cream</h3>
+                        <p id="product18-desc">Vanilla ice cream</p>
+                        <span id="product18-price">ETB 45.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product19.jpg" alt="Product 19">
+                    <div class="product-details">
+                        <h3 id="product19-name">Juice</h3>
+                        <p id="product19-desc">Fresh orange juice</p>
+                        <span id="product19-price">ETB 40.00</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product20.jpg" alt="Product 20">
+                    <div class="product-details">
+                        <h3 id="product20-name">Water</h3>
+                        <p id="product20-desc">Bottled mineral water</p>
+                        <span id="product20-price">ETB 20.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Right Sidebar for Fixed QR Code -->
+        <aside class="sidebar">
+            <div class="qr-section">
+                <h3>Scan to Access Menu</h3>
+                <div id="qrcode"></div>
+            </div>
+            <!-- Developer Information -->
+            <div class="developer-info">
+                <p><strong>Developer:</strong> Habtamu Shiferaw</p>
+                <p><strong>Website:</strong> <a href="#" target="_blank">http://www.bluehubtech.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Ethiopian QR Menu System</p>
+            <p>Connecting Ethiopia with Technology for a Better Dining Experience</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
