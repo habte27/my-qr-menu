@@ -101,11 +101,9 @@ main {
     color: #E2202A; /* Ethiopian Flag Red */
 }
 .qr-container {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+   display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100vh;
     text-align: center;
 }
 
