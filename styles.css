@@ -110,7 +110,7 @@ main {
 }
 
 #qrcode {
-    margin-top: 20px;
+     margin-top: 10px; /* Adds space above the QR code */
     width: 100%;
 }
 
