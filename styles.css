@@ -105,6 +105,7 @@ main {
     place-items: center; /* Centers both horizontally and vertically */
     height: 100vh;
     text-align: center;
+    margin-left:50%;
 }
 
 #qrcode {
