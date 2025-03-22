@@ -25,7 +25,7 @@ function switchLanguage(lang) {
 
 // Generate QR code for the menu URL
 const qrcode = new QRCode(document.getElementById("qrcode"), {
-    text: "https://my-qr-menu.vercel.app/", // Replace with your actual URL
+    text: "https://my-qr-menu.vercel.app", // Replace with your actual URL
     width: 128,
     height: 128,
     colorDark: "#000000",
