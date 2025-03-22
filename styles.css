@@ -99,7 +99,6 @@ main {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
 }
 
 .qr-section h3 {
