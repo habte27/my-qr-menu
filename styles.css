@@ -100,6 +100,14 @@ main {
 .qr-section h3 {
     color: #E2202A; /* Ethiopian Flag Red */
 }
+.qr-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
 
 #qrcode {
     margin-top: 20px;
