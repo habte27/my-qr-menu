@@ -8,6 +8,7 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
     background-color: #F8C82F; /* Ethiopian Flag Yellow */
     color: #fff;
@@ -16,16 +17,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
 }
 
+/* Logo */
 header .logo h1 {
     margin: 0;
     font-size: 2rem;
     font-family: 'Noto Sans', sans-serif;
+    white-space: nowrap; /* Prevents text from breaking */
+}
+
+/* Language Selector */
+.language-selector {
+    display: flex;
+    gap: 10px;
 }
 
 .language-selector button {
-    margin: 0 10px;
     padding: 10px 20px;
     background-color: #E2202A; /* Ethiopian Flag Red */
     border: none;
@@ -33,11 +42,43 @@ header .logo h1 {
     color: #fff;
     border-radius: 5px;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 .language-selector button:hover {
     background-color: #D11B1F;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .language-selector {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .language-selector button {
+        width: 100px; /* Ensures buttons stay uniform on smaller screens */
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .logo h1 {
+        font-size: 1.5rem; /* Reduce logo size for small screens */
+    }
+
+    .language-selector button {
+        width: 90px;
+        font-size: 0.85rem;
+    }
+}
+
 
 /* Main Section */
 main {
