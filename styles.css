@@ -28,8 +28,10 @@ header .logo h1 {
     white-space: nowrap; /* Prevents text from breaking */
 }
 .logo{
-    height:50px;
-    width:50px;
+    height:15px;
+    width:15px;
+    display:flex;
+    align-items:center;
 }
 /* Language Selector */
 .language-selector {
