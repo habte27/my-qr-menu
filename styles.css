@@ -119,12 +119,6 @@ img {
     text-align: justify;
     
 }
-#product1-desc{
-   text-align: center; /* Centers the text */
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-}
 .product h3 {
     font-size: 1.2rem;
     color: #333;
@@ -145,10 +139,10 @@ img {
 
 p {
     text-align: justify; /* Centers the text */
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     margin-top: 20px;
-    line-height:1.5;
+    line-height:1;
 }
 
 a {
