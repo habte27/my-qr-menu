@@ -6,8 +6,6 @@ body {
     box-sizing: border-box;
     background-color: #fff;
 }
-
-/* Header */
 /* Header */
 header {
     background-color: #F8C82F; /* Ethiopian Flag Yellow */
@@ -19,7 +17,6 @@ header {
     align-items: center;
     flex-wrap: wrap; /* Ensures content wraps on smaller screens */
 }
-
 /* Logo */
 header logo h1 {
     margin: 0;
@@ -79,8 +76,7 @@ header logo h1 {
     }
 }
 
-
-/* Main Section */
+/* main container Section */
 .container {
     display: flex;
     justify-content: space-between; /* Ensures even spacing */
@@ -99,6 +95,11 @@ header logo h1 {
 
 .product {
     margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    width: 200px; /* Fixed width for each product */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
     
 }
 .inner-menu{
@@ -107,19 +108,27 @@ header logo h1 {
     padding: 10px;
     line-height:1.5;
 }
-
+.product img {
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+}
 .product-details {
     margin-top: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .product h3 {
-    margin: 5px 0;
-    color: #4A4A4A;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
 }
 
 .product p {
     font-size: 0.9rem;
     margin: 5px 0;
+    color: #777;
 }
 
 .product span {
@@ -222,7 +231,6 @@ footer {
     }
 }
 
-
 /* Flexbox for Menu Items */
 .menu-items {
     display: flex;
@@ -231,43 +239,8 @@ footer {
     gap: 20px; /* Adds space between items */
 }
 
-.product {
-    background-color: #fff;
-    padding: 15px;
-    width: 200px; /* Fixed width for each product */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
 .product: hover {
     transform: scale(1.05); /* Slight zoom on hover */
-}
-
-.product img {
-    width: 50%;
-    height: 50%;
-    border-radius: 8px;
-}
-
-.product-details {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.product h3 {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.product p {
-    font-size: 0.9rem;
-    color: #777;
-}
-
-.product span {
-    font-weight: bold;
-    color: #E2202A; /* Ethiopian Red */
 }
 
 /* Responsive Design for smaller screens */
