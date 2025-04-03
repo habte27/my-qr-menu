@@ -96,7 +96,7 @@ header logo h1 {
 .product {
     margin-bottom: 20px;
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     
@@ -104,7 +104,7 @@ header logo h1 {
 .inner-menu{
     flex: 1; /* Makes all inner divs equal in width */
     text-align: justify;
-    padding: 10px;
+    padding: 5px;
     line-height:1.5;
 }
 img {
@@ -135,7 +135,7 @@ p {
     text-align: justify; /* Centers the text */
     font-size: 12px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 5px;
     line-height:1.5;
     overflow-wrap:break-word;
 }
