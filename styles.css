@@ -98,8 +98,14 @@ header .logo h1 {
 
 .product {
     margin-bottom: 20px;
+    
 }
-
+.inner-menu{
+    flex: 1; /* Makes all inner divs equal in width */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #999; /* Optional: Visualize inner divs */
+}
 .product img {
     max-width: 100%;
     height: auto;
