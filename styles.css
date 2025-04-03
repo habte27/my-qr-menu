@@ -144,10 +144,11 @@ img {
 }
 
 p {
-    text-align: center; /* Centers the text */
+    text-align: justify; /* Centers the text */
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+    line-height:1.5;
 }
 
 a {
