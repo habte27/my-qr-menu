@@ -115,7 +115,6 @@ img {
 }
 .product-details {
     margin-top: 10px;
-    margin-top: 10px;
     text-align: justify;
     
 }
@@ -123,12 +122,6 @@ img {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 5px;
-}
-
-.product p {
-    font-size: 0.9rem;
-    margin: 5px 0;
-    color: #777;
 }
 
 .product span {
