@@ -93,7 +93,6 @@ header .logo h1 {
     flex: 1; /* Each column gets equal width */
     text-align: center; /* Centers text inside each column */
     padding: 10px;
-    border: 1px solid #ccc; /* Optional: Adds a border for visualization */
 }
 
 .product {
