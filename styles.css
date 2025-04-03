@@ -119,7 +119,12 @@ img {
     text-align: justify;
     
 }
-
+#product1-desc{
+   text-align: center; /* Centers the text */
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 .product h3 {
     font-size: 1.2rem;
     color: #333;
