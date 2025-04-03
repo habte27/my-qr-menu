@@ -107,15 +107,17 @@ header logo h1 {
     padding: 10px;
     line-height:1.5;
 }
-.product img {
+img {
     width: 50%;
     height: 50%;
     border-radius: 8px;
+    object-fit: cover
 }
 .product-details {
     margin-top: 10px;
     margin-top: 10px;
-    text-align: center;
+    text-align: justify;
+    
 }
 
 .product h3 {
