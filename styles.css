@@ -82,12 +82,18 @@ header .logo h1 {
 
 /* Main Section */
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
-    grid-template-rows: 1fr; /* 1 row */
-    gap: 10px; /* gap between grid items */
-    padding: 20px; /* padding around the grid */
-    justify-content: space-between; /* horizontal spacing */
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Space between columns */
+    padding: 20px;
+}
+
+.menu {
+    flex: 1; /* Each column gets equal width */
+    text-align: center; /* Centers text inside each column */
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: Adds a border for visualization */
 }
 
 .product {
