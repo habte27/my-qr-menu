@@ -114,15 +114,15 @@ img {
     object-fit: cover
 }
 .product-details {
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: justify;
     
 }
 h3 {
     font-size: 1rem;
     color: #333;
-    margin-bottom: 5px;
-    text-align:center;
+    margin-bottom:1px;
+    text-align: center;
 }
 
 .product span {
