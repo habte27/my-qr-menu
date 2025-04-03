@@ -83,16 +83,21 @@ header .logo h1 {
 /* Main Section */
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between; /* Ensures even spacing */
     align-items: center; /* Aligns items vertically */
     gap: 10px; /* Space between columns */
     padding: 20px;
+    width: 100%;
 }
 
 .menu {
     flex: 1; /* Each column gets equal width */
+    display: flex;
+     flex-direction: row;
     text-align: center; /* Centers text inside each column */
     padding: 10px;
+    
 }
 
 .product {
@@ -101,8 +106,9 @@ header .logo h1 {
 }
 .inner-menu{
     flex: 1; /* Makes all inner divs equal in width */
-    text-align: center;
+    text-align:justify;
     padding: 10px;
+    line-height:1.5;
 }
 .product img {
     max-width: 50%;
