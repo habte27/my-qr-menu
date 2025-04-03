@@ -94,6 +94,9 @@ header logo h1 {
 }
 
 .product {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
     margin-bottom: 20px;
     background-color: #fff;
     padding: 10px;
