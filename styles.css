@@ -21,7 +21,7 @@ header {
 }
 
 /* Logo */
-header .logo h1 {
+header logo h1 {
     margin: 0;
     font-size: 2rem;
     font-family: 'Noto Sans', sans-serif;
@@ -45,7 +45,7 @@ header .logo h1 {
     transition: background-color 0.3s ease;
 }
 
-.language-selector button:hover {
+.language-selector button: hover {
     background-color: #D11B1F;
 }
 
@@ -106,11 +106,6 @@ header .logo h1 {
     text-align: justify;
     padding: 10px;
     line-height:1.5;
-}
-.product img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 10px;
 }
 
 .product-details {
