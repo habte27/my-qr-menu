@@ -105,10 +105,13 @@ header logo h1 {
     
 }
 .inner-menu{
-    flex: 1; /* Makes all inner divs equal in width */
     text-align: justify;
     padding: 5px;
     line-height:1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 img {
     width: 50%;
