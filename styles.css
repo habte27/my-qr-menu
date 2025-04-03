@@ -94,14 +94,11 @@ header logo h1 {
 }
 
 .product {
-    display: flex;
     margin-bottom: 20px;
     background-color: #fff;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    justify-content: center; /* Ensures even spacing */
-    align-items: center;
     
 }
 .inner-menu{
