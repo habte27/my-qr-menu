@@ -2,16 +2,30 @@
 const menuData = {
     en: {
         product1: {
-            name: "Product Name",
-            description: "Description of product.",
-            price: "ETB 50.00"
+            name: "Scrambled Egg",
+            description: "Egg, Onion, green butter chilli served with Enjera & bread.",
+            price: "ETB 210.00"
         }
     },
     am: {
         product1: {
-            name: "ምርት ስም",
-            description: "የምርት ማብራሪያ.",
-            price: "በETB 50.00"
+            name: "እንቁላል ፍርፍር",
+            description: "እንቁላል, ሽንኩርት, አረንጓዴ ቃሪይ ከ እንጀራ ጋር ያገለገሉ።",
+            price: "በር 210.00"
+        }
+    },
+    en: {
+        product2: {
+            name: "Egg with Meat.",
+            description: "Egg, minced meat,onion, Ethiopian butter, with enjera & bread.",
+            price: "ETB 210.00"
+        }
+    },
+    am: {
+        product2: {
+            name: "ዕንቁላል በሥጋ",
+            description: "እንቁላል፣ የተፈጨ ሥጋ፣ ሽንኩርት፣ የኢትዮጵያ ቅቤና ዳቦ።",
+            price: "በር 210.00"
         }
     }
 };
