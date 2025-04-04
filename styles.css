@@ -126,7 +126,7 @@ img {
     text-align: center;
     
 }
-h3 {
+.product h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom:1px;
@@ -134,14 +134,14 @@ h3 {
     margin: 0.5em 0;
 }
 
-.product span {
+ .product product span {
     font-weight: bold;
     font-size: 1.1rem;
     color: #2A9D8F; /* Ethiopian Green */
     margin: 0.5em 0;
 }
 
-p {
+.product p {
     text-align: justify; /* Centers the text */
     font-size: 0.9em;
     font-weight: bold;
@@ -150,7 +150,7 @@ p {
     overflow-wrap:break-word;
 }
 
-a {
+.product  a {
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
