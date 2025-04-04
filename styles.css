@@ -123,28 +123,30 @@ img {
 }
 .product-details {
     margin-top: 5px;
-    text-align: justify;
+    text-align: center;
     
 }
 h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #333;
     margin-bottom:1px;
     text-align: center;
+    margin: 0.5em 0;
 }
 
 .product span {
     font-weight: bold;
     font-size: 1.1rem;
     color: #2A9D8F; /* Ethiopian Green */
+    margin: 0.5em 0;
 }
 
 p {
     text-align: justify; /* Centers the text */
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: bold;
-    margin-top: 5px;
-    line-height:1.5;
+    margin: 0.5em 0;
+    line-height:1;
     overflow-wrap:break-word;
 }
 
@@ -257,56 +259,5 @@ footer {
 @media (max-width: 480px) {
     .product {
         width: 90%; /* Takes up 90% width on tiny screens */
-    }
-}
-
-/* Add this to styles.css */
-
-/* Basic styles for product-details */
-.product-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-/* Responsive styles */
-@media (min-width: 600px) {
-    .product-details {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-    }
-}
-
-/* Styling for elements inside product-details */
-.product-details h3 {
-    font-size: 1.5em;
-    margin: 0.5em 0;
-}
-
-.product-details p {
-    font-size: 1em;
-    margin: 0.5em 0;
-}
-
-.product-details span {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0.5em 0;
-}
-
-/* Adjustments for smaller screens */
-@media (max-width: 599px) {
-    .product-details h3 {
-        font-size: 1.2em;
-    }
-
-    .product-details p {
-        font-size: 0.9em;
-    }
-
-    .product-details span {
-        font-size: 1em;
     }
 }
