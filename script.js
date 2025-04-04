@@ -27,6 +27,20 @@ const menuData = {
             description: "እንቁላል፣ የተፈጨ ሥጋ፣ ሽንኩርት፣ የኢትዮጵያ ቅቤና ዳቦ።",
             price: "በር 210.00"
         }
+    },
+    en: {
+        product3: {
+            name: "Scrambled Egg with Cheese",
+            description: "Egg, grams of mozerella cheese, onion, black pepper served with a slice of bread & enjera.",
+            price: "ETB 350.00"
+        }
+    },
+    am: {
+        product2: {
+            name:  "በአይብ የተጠበሰ እንቁላል",
+            description: "እንቁላል፣ ግራም ሞዜሬላ አይብ፣ ሽንኩርት፣ ጥቁር በርበሬ ከዳቦ እና Enjera  ጋር  ይቀርባል።",
+            price: "በር 350.00"
+        }
     }
 };
 
